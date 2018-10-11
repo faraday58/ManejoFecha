@@ -4,9 +4,10 @@ namespace ManejoFecha
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            DateTime time = new DateTime();
+            Console.WriteLine("Hora: " + DateTime.Now);
         }
     }
 }
